@@ -1,0 +1,28 @@
+{
+  "name": "dynamic-encoder",
+  "version": "1.0.0",
+  "description": "A JavaScript library for dynamically generating, importing, and executing custom encoders using compact-encoding, with support for dependency injection and hash-based integrity verification.",
+  "main": "index.js",
+  "type": "module",
+  "homepage": "https://github.com/zacharygriffee/dynamic-encoder#readme",
+  "scripts": {
+    "test": "node ./test.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "dynamic",
+    "encoder",
+    "library",
+    "encoding"
+  ],
+  "author": "Zachary Griffee",
+  "license": "MIT",
+  "dependencies": {
+    "b4a": "^1.6.6",
+    "compact-encoding": "^2.15.0"
+  },
+  "devDependencies": {
+    "brittle": "^3.7.0",
+    "codecs": "^3.1.0"
+  }
+}
